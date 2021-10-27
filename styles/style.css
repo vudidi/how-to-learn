@@ -22,12 +22,12 @@
 .logo {
   background-repeat: no-repeat;
   background-size: cover;
+  width: 183px;
 }
 
 .logo_place_header {
   z-index: 2;
   background-image: url(../images/logo_place_header.svg);
-  width: 183px;
   height: 32px;
   position: absolute;
   left: 64px;
@@ -122,7 +122,7 @@
 
 .digits {
   margin: 0;
-  padding: 100px 0 100px;
+  padding: 0 0 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,14 +130,17 @@
 
 .section-title {
   margin: 0;
+  width: 60%;
+  text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
 }
 
 .section-subtitle {
-  margin: 0;
-  margin-top: 20px;
+  margin: 20px 0 0;
+  width: 60%;
+  text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -182,7 +185,7 @@
   align-items: center;
 }
 
-.feynman-background {
+.faynman__feynman-background {
   z-index: 1;
   position: absolute;
   left: 0;
@@ -208,6 +211,7 @@
 }
 
 .feynman__link {
+  z-index: 2;
   color: #2f80ed;
   text-decoration: none;
   line-height: 51px;
@@ -303,7 +307,6 @@
 .logo_place_footer {
   z-index: 4;
   background-image: url(../images/logo_place_footer.svg);
-  width: 183px;
   height: 35px;
 }
 
