@@ -1,6 +1,6 @@
 .header__subtitle {
   z-index: 2;
-  margin: auto;
+  margin: 0;
   width: 388px;
   line-height: 25px;
   font-size: 18px;
